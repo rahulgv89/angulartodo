@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="main">
+<h1>Item List</h1>
+<div class="addItem">
+  <input [(ngModel)] = "newItem" placeholder="Add Item" class="addText">
+  <button (click) = "pushItem()">Add</button>
+</div>
+  <ul>
+    <li *ngFor = " let i of items; let ind = index" >
+        
+            {{i}}
+      <span class="removeItem">
+      <button (click)= "removeItem(ind)">Delete</button></span>
+       <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span></label>
+                      
+         </li>
+     </ul>
+    </div>
+  
+

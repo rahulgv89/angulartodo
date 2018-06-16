@@ -1,0 +1,128 @@
+.main{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #d7d7d7;
+    border-bottom: 0px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #5c8297;
+    padding: 30px 0px;
+    margin-top: 0px;
+    color: wheat;
+}
+
+.addItem{
+    position: relative;
+    padding-bottom: 0px;
+    height: 30px;
+}
+
+.addText{
+    width: 75%;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.addItem button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    color: green;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+
+li{
+    border-bottom: 1px solid #bbffbb;
+    background-color: lightcoral;
+    padding: 10px 0px;
+    margin-bottom: 5px; 
+}
+
+.removeItem button{
+    
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+ }
+
+.switch {
+    position: relative;
+    margin-right: 10px;
+    float: right;
+    width: 45px;
+    height: 24px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: burlywood;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px brown;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+
+  .check{
+    position: relative;
+    margin-right: 10px;
+    float: right;
+  }
+
