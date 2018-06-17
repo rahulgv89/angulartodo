@@ -7,16 +7,15 @@
 </div>
   <ul>
     <li *ngFor = " let i of items; let ind = index" >
-        
-            {{i}}
+                    {{i}}
       <span class="removeItem">
       <button (click)= "removeItem(ind)">Delete</button></span>
-       <label class="switch">
-          <input type="checkbox">
-          <span class="slider round"></span></label>
-                      
-         </li>
-     </ul>
-    </div>
+         
+         <label><input #big type="checkbox"name="size" (change)="0">
+           <p *ngIf="big.checked">Completed</p></label>
+         
+              </li>
+              </ul>
+              </div>
   
 
