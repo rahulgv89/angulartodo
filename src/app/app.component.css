@@ -48,7 +48,7 @@ ul{
 
 li{
     border-bottom: 1px solid #bbffbb;
-    background-color: lightcoral;
+    background-color: lavenderblush;
     padding: 10px 0px;
     margin-bottom: 2px; 
 }
@@ -62,10 +62,15 @@ li{
     width: 50px;
     padding: 2px;
  }
- input[type=checkbox] {
+  input[type=checkbox] {
   position: relative;
   float:left;
   bottom: 1px;
+  color: #555555;
+}
+p{
+ font-size: 14px;
+  color: darkgoldenrod;
 }
 
 
